@@ -5,7 +5,7 @@ from Classes.Hangouts.Hangouts.Hangouts import Hangouts
 
 
 def envia_mensagem_hangouts(mensagem):
-    url = f"https://chat.googleapis.com/v1/spaces/AAQA_nTpXnI/messages?key='SECRET_REMOVED_BY_AI'&token=A3uqSJ-wwTTNlSuMWEbk5tFkWCUI4jOaRaRiQjIf9Tw"
+    url = "REMOVED_FOR_GITHUB"
 
     hangouts = Hangouts(url=url, mensagem=mensagem)
     hangouts.retorna_google_chat()
